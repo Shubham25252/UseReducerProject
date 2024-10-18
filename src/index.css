@@ -1,0 +1,84 @@
+/* Main App Flex Layout */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f0f0f5;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Container for Employee and Team Lists */
+.container {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.container:hover {
+  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* List Items Styling */
+.list-item {
+  background: #fff;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  padding: 20px;
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.list-item:hover {
+  transform: scale(1.05);
+  box-shadow: 4px 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Button Styling */
+button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+  transform: translateY(-3px);
+}
+
+button:active {
+  transform: translateY(1px);
+}
+
+/* Average Age and Sort Buttons */
+.average-age {
+  font-size: 1.2rem;
+  color: #555;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.sort-button {
+  margin-top: 20px;
+  display: block;
+  padding: 10px;
+  background-color: #3498db;
+}
+
+.sort-button:hover {
+  background-color: #2980b9;
+}
